@@ -10,7 +10,7 @@ headers = {'User-Agent':
 def main(limit):
     for i in range(1, limit+1):
         num = getrandbits(40)
-        firstname = 'your name'.format(num) # put your name here, don't remove the {}
+        firstname = 'your name{}'.format(num) # put your name here, don't remove the {}
         lastname = 'your name{}'.format(num) # put your name here, don't remove the {}
         phone = 'cekk'
         email = 'your_email+{}@gmail.com'.format(num) # CHANGE YOUR_EMAIL to your email prefix. don't change the +{} after.
